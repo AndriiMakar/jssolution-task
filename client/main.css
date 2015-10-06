@@ -1,0 +1,25 @@
+.map-container  {
+    width: 90%;
+    max-width: 90%;
+    height: 500px;
+    margin: 1% 1% 1% 5%;
+}
+
+.input-group, .footer{
+  width: 1200px;
+  margin-left: 5%;
+}
+
+.input-group .form-control {
+  margin: 1% 1% 1% 0%;
+  height: 30px;
+  width: 1200px;;
+  }
+
+.navbar{
+  margin: 1%
+}
+
+#id{
+  margin-top: 1%
+}

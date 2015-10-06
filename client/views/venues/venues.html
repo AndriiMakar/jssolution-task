@@ -1,0 +1,20 @@
+<template name="venues">
+<div class="footer">
+ <h3><b>{{venuescount}} venues <button id="csv" type="button" class="btn btn-default pull-right">Export CSV</button></b></h3> 
+<table class="table table-hover queries-table">
+      <tbody>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Street Address</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+      </tr>
+      {{#each venueRes}}
+          {{> venue}}
+      {{/each}}
+      </tbody>
+    </table>
+    </div>
+</template>

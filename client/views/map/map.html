@@ -1,0 +1,18 @@
+<template name="map">
+
+    <div class="col-lg-6">
+        <div class="input-group">
+       
+            {{> queries}}
+        
+        	
+            <form id="find">
+            <input type="text" class="form-control" id="find1" placeholder="Search for...">
+            </form>
+       </div>
+    </div>
+
+      <div class="map-container" id="map-canvas">
+        {{> googleMap name="map" options=mapOptions}}
+    </div>
+</template>
